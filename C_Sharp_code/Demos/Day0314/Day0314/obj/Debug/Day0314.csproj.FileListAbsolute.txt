@@ -1,0 +1,6 @@
+C:\C#code\Demos\Day0314\Day0314\bin\Debug\Day0314.exe.config
+C:\C#code\Demos\Day0314\Day0314\bin\Debug\Day0314.exe
+C:\C#code\Demos\Day0314\Day0314\bin\Debug\Day0314.pdb
+C:\C#code\Demos\Day0314\Day0314\obj\Debug\Day0314.csprojAssemblyReference.cache
+C:\C#code\Demos\Day0314\Day0314\obj\Debug\Day0314.exe
+C:\C#code\Demos\Day0314\Day0314\obj\Debug\Day0314.pdb

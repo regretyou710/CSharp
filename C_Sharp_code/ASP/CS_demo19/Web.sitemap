@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    //使用SiteMapPath建立網站導覽
+    1.新增Web.sitemap xml檔案,檔名避免中文(SiteMapPath控制項會有問題)
+    2.建立對應url的Web表單
+    3.加入SiteMapPath控制項
+    4.啟動網頁測試有出錯,C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config
+    註解掉出現錯誤的行數
+  -->
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="主網頁"  description="主網頁">
+    <siteMapNode url="~/Training.aspx" title="訓練課程"  description="訓練課程" />
+    <siteMapNode url="~/Products.aspx" title="產品介紹"  description="產品介紹" />
+  </siteMapNode>
+</siteMap>

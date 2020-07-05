@@ -1,0 +1,2 @@
+﻿製作LINQ to Entities及LINQ to SQL模型
+操作流程參見picture

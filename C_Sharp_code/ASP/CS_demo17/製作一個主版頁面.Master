@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="製作一個主版頁面.master.cs" Inherits="CS_demo17.製作一個主版頁面" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%">
+                <tr>                                      
+                    <td> 
+                        Left
+                        <asp:ContentPlaceHolder ID="left" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        Right
+                        <asp:ContentPlaceHolder ID="right" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

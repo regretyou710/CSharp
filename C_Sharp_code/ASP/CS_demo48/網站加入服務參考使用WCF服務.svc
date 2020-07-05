@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CS_demo48.網站加入服務參考使用WCF服務" CodeBehind="網站加入服務參考使用WCF服務.svc.cs" %>

@@ -1,0 +1,10 @@
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\CS_demo05.dll.config
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\CS_demo05.dll
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\CS_demo05.pdb
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\EntityFramework.dll
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\EntityFramework.xml
+D:\C_Sharp_code\ADO\CS_demo05\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\C_Sharp_code\ADO\CS_demo05\obj\Debug\CS_demo05.csproj.CoreCompileInputs.cache
+D:\C_Sharp_code\ADO\CS_demo05\obj\Debug\CS_demo05.csproj.CopyComplete
+D:\C_Sharp_code\ADO\CS_demo05\obj\Debug\CS_demo05.dll
+D:\C_Sharp_code\ADO\CS_demo05\obj\Debug\CS_demo05.pdb

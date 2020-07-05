@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="程式使用LINQ語法顯示資料">
+  <DataContextMoniker Name="/程式使用LINQ語法顯示資料DataContext" />
+  <nestedChildShapes>
+    <classShape Id="cd37f323-822d-44d4-abcb-fe59d2ffd1a1" absoluteBounds="0.5, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/程式使用LINQ語法顯示資料DataContext/Customers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3a43595-32e1-4b7e-bdff-8c0ec444c587" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

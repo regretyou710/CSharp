@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<employees>
+
+  <employee Title="Sales Representative" LastName="Davolio" FirstName="Nancy" EmployeeID="1"/>
+
+  <employee Title="Vice President, Sales" LastName="Fuller" FirstName="Andrew" EmployeeID="2"/>
+
+  <employee Title="Sales Representative" LastName="Leverling" FirstName="Janet" EmployeeID="3"/>
+
+  <employee Title="Sales Representative" LastName="Peacock" FirstName="Margaret" EmployeeID="4"/>
+
+  <employee Title="Sales Manager" LastName="Buchanan" FirstName="Steven" EmployeeID="5"/>
+
+  <employee Title="Sales Representative" LastName="Suyama" FirstName="Michael" EmployeeID="6"/>
+
+  <employee Title="Sales Representative" LastName="King" FirstName="Robert" EmployeeID="7"/>
+
+  <employee Title="Inside Sales Coordinator" LastName="Callahan" FirstName="Laura" EmployeeID="8"/>
+
+  <employee Title="Sales Representative" LastName="Dodsworth" FirstName="Anne" EmployeeID="9"/>
+
+</employees>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CS_demo47.在IIS中建立WCF服務" CodeBehind="在IIS中建立WCF服務.svc.cs" %>

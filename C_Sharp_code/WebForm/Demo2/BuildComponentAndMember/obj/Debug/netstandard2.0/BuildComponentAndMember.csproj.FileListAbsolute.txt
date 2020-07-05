@@ -1,0 +1,8 @@
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\bin\Debug\netstandard2.0\BuildComponentAndMember.deps.json
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\bin\Debug\netstandard2.0\BuildComponentAndMember.dll
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\bin\Debug\netstandard2.0\BuildComponentAndMember.pdb
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\obj\Debug\netstandard2.0\BuildComponentAndMember.csprojAssemblyReference.cache
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\obj\Debug\netstandard2.0\BuildComponentAndMember.AssemblyInfoInputs.cache
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\obj\Debug\netstandard2.0\BuildComponentAndMember.AssemblyInfo.cs
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\obj\Debug\netstandard2.0\BuildComponentAndMember.dll
+C:\C#code\WebForm\Demo2\BuildComponentAndMember\obj\Debug\netstandard2.0\BuildComponentAndMember.pdb

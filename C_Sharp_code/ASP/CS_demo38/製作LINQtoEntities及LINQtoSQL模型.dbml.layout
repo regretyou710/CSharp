@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="製作LINQtoEntities及LINQtoSQL模型">
+  <DataContextMoniker Name="/製作LINQtoEntities及LINQtoSQL模型DataContext" />
+  <nestedChildShapes>
+    <classShape Id="9cb732ad-0197-4279-b140-74ad988094b6" absoluteBounds="1.5, 2.875, 2, 4.2708154296875">
+      <DataClassMoniker Name="/製作LINQtoEntities及LINQtoSQL模型DataContext/Employees" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b743102-dfd5-4703-b04d-ecd7c8aa29f1" absoluteBounds="1.5150000000000001, 3.335, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.20923076923077 : 7.1458154296875); (2.20923076923077 : 7.3958154296875); (2.80461538461538 : 7.3958154296875); (2.80461538461538 : 7.1458154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/製作LINQtoEntities及LINQtoSQL模型DataContext/Employees/Employees_Employees" />
+      <nodes>
+        <classShapeMoniker Id="9cb732ad-0197-4279-b140-74ad988094b6" />
+        <classShapeMoniker Id="9cb732ad-0197-4279-b140-74ad988094b6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

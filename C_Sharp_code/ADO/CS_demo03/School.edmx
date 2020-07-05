@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SchoolModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SchoolModelStoreContainer">
+    <EntitySet Name="Course" EntityType="SchoolModel.Store.Course" store:Type="Tables" Schema="Student" />
+    <EntitySet Name="ClassRoom" EntityType="SchoolModel.Store.ClassRoom" store:Type="Tables" Schema="Student" />
+    <AssociationSet Name="CourseClassRoom" Association="SchoolModel.Store.CourseClassRoom">
+      <End Role="Course" EntitySet="Course" />
+      <End Role="ClassRoom" EntitySet="ClassRoom" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="CourseId" />
+    </Key>
+    <Property Name="CourseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CourseName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassRoom">
+    <Key>
+      <PropertyRef Name="ClassRoomId" />
+    </Key>
+    <Property Name="ClassRoomId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Course_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CourseClassRoom">
+    <End Role="Course" Type="SchoolModel.Store.Course" Multiplicity="1" />
+    <End Role="ClassRoom" Type="SchoolModel.Store.ClassRoom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course">
+        <PropertyRef Name="CourseId" />
+      </Principal>
+      <Dependent Role="ClassRoom">
+        <PropertyRef Name="Course_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SchoolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SchoolEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="Course" EntityType="SchoolModel.Course" />
+          <EntitySet Name="ClassRoom" EntityType="SchoolModel.ClassRoom" />
+          <AssociationSet Name="CourseClassRoom" Association="SchoolModel.CourseClassRoom">
+            <End Role="Course" EntitySet="Course" />
+            <End Role="ClassRoom" EntitySet="ClassRoom" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="CourseId" />
+          </Key>
+          <Property Name="CourseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseName" Type="String" Nullable="false" />
+          <NavigationProperty Name="ClassRoom" Relationship="SchoolModel.CourseClassRoom" FromRole="Course" ToRole="ClassRoom" />
+        </EntityType>
+        <EntityType Name="ClassRoom">
+          <Key>
+            <PropertyRef Name="ClassRoomId" />
+          </Key>
+          <Property Name="ClassRoomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Course_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Course" Relationship="SchoolModel.CourseClassRoom" FromRole="ClassRoom" ToRole="Course" />
+        </EntityType>
+        <Association Name="CourseClassRoom">
+          <End Type="SchoolModel.Course" Role="Course" Multiplicity="1" />
+          <End Type="SchoolModel.ClassRoom" Role="ClassRoom" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Course">
+              <PropertyRef Name="CourseId" />
+            </Principal>
+            <Dependent Role="ClassRoom">
+              <PropertyRef Name="Course_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SchoolModelStoreContainer" CdmEntityContainer="SchoolEntities">
+    <EntitySetMapping Name="Course">
+      <EntityTypeMapping TypeName="IsTypeOf(SchoolModel.Course)">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassRoom">
+      <EntityTypeMapping TypeName="IsTypeOf(SchoolModel.ClassRoom)">
+        <MappingFragment StoreEntitySet="ClassRoom">
+          <ScalarProperty Name="ClassRoomId" ColumnName="ClassRoomId" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="預設值" />
+        <DesignerProperty Name="DefaultDatabaseSchema" Value="Student" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

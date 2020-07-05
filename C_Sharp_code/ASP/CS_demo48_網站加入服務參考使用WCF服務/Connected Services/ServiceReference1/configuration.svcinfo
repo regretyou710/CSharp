@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BasicHttpBinding_I網站加入服務參考使用WCF服務&quot; /&gt;" bindingType="basicHttpBinding" name="BasicHttpBinding_I網站加入服務參考使用WCF服務" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:49830/%E7%B6%B2%E7%AB%99%E5%8A%A0%E5%85%A5%E6%9C%8D%E5%8B%99%E5%8F%83%E8%80%83%E4%BD%BF%E7%94%A8WCF%E6%9C%8D%E5%8B%99.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_I網站加入服務參考使用WCF服務&quot; contract=&quot;ServiceReference1.I網站加入服務參考使用WCF服務&quot; name=&quot;BasicHttpBinding_I網站加入服務參考使用WCF服務&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:49830/%E7%B6%B2%E7%AB%99%E5%8A%A0%E5%85%A5%E6%9C%8D%E5%8B%99%E5%8F%83%E8%80%83%E4%BD%BF%E7%94%A8WCF%E6%9C%8D%E5%8B%99.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_I網站加入服務參考使用WCF服務&quot; contract=&quot;ServiceReference1.I網站加入服務參考使用WCF服務&quot; name=&quot;BasicHttpBinding_I網站加入服務參考使用WCF服務&quot; /&gt;" contractName="ServiceReference1.I網站加入服務參考使用WCF服務" name="BasicHttpBinding_I網站加入服務參考使用WCF服務" />
+  </endpoints>
+</configurationSnapshot>
