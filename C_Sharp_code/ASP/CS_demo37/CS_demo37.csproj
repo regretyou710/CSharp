@@ -72,23 +72,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="使用AutoCompleteAjax伺服器控制項.asmx" />
     <Content Include="使用AutoCompleteAjax伺服器控制項.aspx" />
+    <Content Include="使用AutoCompleteAjax伺服器控制項服務.asmx" />
     <Content Include="使用Popup彈出式Ajax伺服器控制項.aspx" />
     <Content Include="安裝及使用Ajax伺服器控制項.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="使用AutoCompleteAjax伺服器控制項.asmx.cs">
-      <DependentUpon>使用AutoCompleteAjax伺服器控制項.asmx</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="使用AutoCompleteAjax伺服器控制項.aspx.cs">
       <DependentUpon>使用AutoCompleteAjax伺服器控制項.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="使用AutoCompleteAjax伺服器控制項.aspx.designer.cs">
       <DependentUpon>使用AutoCompleteAjax伺服器控制項.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="使用AutoCompleteAjax伺服器控制項服務.asmx.cs">
+      <DependentUpon>使用AutoCompleteAjax伺服器控制項服務.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="使用Popup彈出式Ajax伺服器控制項.aspx.cs">
       <DependentUpon>使用Popup彈出式Ajax伺服器控制項.aspx</DependentUpon>

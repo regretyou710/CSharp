@@ -14,6 +14,29 @@
         <br />
         3.設定UpdatePanel屬性UpdatePanel為Conditional(不會受到另一個UpdatePanel的PostBack影響)<br />
         4.設定按鈕事件<br />
+        <br/>
+        狀況一:<br/>
+        UpdatePanel1 UpdateMode:Conditional<br/>
+        UpdatePanel2 UpdateMode:Conditional<br/>
+        Button1_Click 沒有撰寫<br/>
+        Button2_Click 沒有撰寫<br/>
+        >>各自更新時間<br/>
+        <br/>
+        狀況二:<br/>
+        UpdatePanel1 UpdateMode:Conditional<br/>
+        UpdatePanel2 UpdateMode:Always<br/>
+        Button1_Click 沒有撰寫<br/>
+        Button2_Click 沒有撰寫<br/>
+        >>UpdatePanel1不會隨UpdatePane2更新時間<br/>
+        >>UpdatePanel2隨UpdatePanel1更新時間<br/>
+        <br/>
+        狀況三:
+        UpdatePanel1 UpdateMode:Conditional<br/>
+        UpdatePanel2 UpdateMode:Conditional<br/>
+        Button1_Click 呼叫UpdatePanel2.Update()<br/>
+        Button2_Click 沒有撰寫<br/>
+        >>Button2_Click執行時，UpdatePanel1不會隨UpdatePane2更新時間，只更新UpdatePane2<br/>
+        >>Button1_Click執行時，UpdatePanel2隨UpdatePanel1更新時間<br/>
         -----------------------------<br/>
         <div>
             <asp:ScriptManager ID="ScriptManager1" runat="server">

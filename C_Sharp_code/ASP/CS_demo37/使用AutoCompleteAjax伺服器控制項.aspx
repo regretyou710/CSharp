@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="使用AutoCompleteAjax伺服器控制項.aspx.cs" Inherits="CS_demo37.使用AutoCompleteAjax伺服器控制項1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="使用AutoCompleteAjax伺服器控制項.aspx.cs" Inherits="CS_demo37.使用AutoCompleteAjax伺服器控制項" %>
 
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
@@ -11,6 +11,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        輸入字首自動完成(不要離開TextBox，在下方會顯示完成字串陣列)<br/>
+        MinimumPrefixLength需為1<br/>
         ----------------------<br/>
         1.加入ToolkitScriptManager、TextBox控制項<br/>
         2.TextBox控制項快顯視窗>加入擴充項>AutoCompleteExtender<br />
@@ -22,7 +24,7 @@
             </asp:ToolkitScriptManager>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <asp:AutoCompleteExtender ID="TextBox1_AutoCompleteExtender" runat="server" DelimiterCharacters="" 
-                Enabled="True" ServicePath="~/使用AutoCompleteAjax伺服器控制項.asmx" TargetControlID="TextBox1" ServiceMethod="GetCompany" MinimumPrefixLength="1">
+                Enabled="True" ServicePath="~/使用AutoCompleteAjax伺服器控制項服務.asmx" TargetControlID="TextBox1" ServiceMethod="GetCompany" MinimumPrefixLength="1">
             </asp:AutoCompleteExtender>
         </div>
     </form>

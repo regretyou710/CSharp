@@ -22,7 +22,7 @@
         5.選擇資料來源&gt;資料庫<br />
         6.選擇Product資料表<br />
         7.<ProgressTemplate>ProgressTemplate標籤插入圖片&gt;替代文字取消打勾<br />
-        8.UpdatePanel控制項屬性AssociatedUpdatePanelID設定UpdatePanel1<br />
+        8.UpdateProgress控制項屬性AssociatedUpdatePanelID設定UpdatePanel1<br />
         9.GridView加入PageIndexChanging事件<br />
         -------------------------------<br />
         <div>

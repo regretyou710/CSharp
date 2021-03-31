@@ -21,6 +21,7 @@ namespace CS_demo44
             string p = Login1.Password;
             if (FormsAuthentication.Authenticate(u,p))
             {
+                //FormsAuthentication.Authenticate(u,p)如果為true
                 e.Authenticated = true;//表示驗證成功
                 FormsAuthentication.RedirectFromLoginPage(u,true);//帳號紀錄到cookie中
             }

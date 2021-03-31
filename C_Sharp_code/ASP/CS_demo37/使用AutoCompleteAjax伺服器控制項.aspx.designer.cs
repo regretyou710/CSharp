@@ -11,7 +11,7 @@ namespace CS_demo37
 {
 
 
-    public partial class 使用AutoCompleteAjax伺服器控制項1
+    public partial class 使用AutoCompleteAjax伺服器控制項
     {
 
         /// <summary>
