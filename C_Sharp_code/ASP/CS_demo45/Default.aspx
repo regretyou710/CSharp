@@ -13,6 +13,9 @@
             <asp:LoginName ID="LoginName1" runat="server" />
         </div>
         <asp:LoginStatus ID="LoginStatus1" runat="server" />
+        <br />
+        或是在當前路徑切換到/SecuredFile/Protected.aspx<br />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="訪問目錄資源" />
     </form>
 </body>
 </html>

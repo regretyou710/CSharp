@@ -16,7 +16,7 @@ namespace CS_demo33
      [System.Web.Script.Services.ScriptService]
     public class ScriptManager如何使用Web服務1 : System.Web.Services.WebService
     {
-        //取消useing註解
+        //取消using註解
         
         [WebMethod]
         public string HelloWorld()

@@ -3,7 +3,7 @@
 3.執行svc檔網頁瀏覽
 4.visual studio命令提示執行(切換到C:\)svcutil.exe https://localhost:44398/在IIS中建立WCF服務.svc?wsdl
 5.建立新專案
-6.步驟4產生的cs檔加入至新專案中、參考>System.ServiceModel
+6.步驟4產生的cs檔加入至新專案中(可以建一個資料夾,專案滑鼠右鍵>加入>加入ASP.NET資料夾>App_Code>放在裡面)、參考>System.ServiceModel
 7.步驟4產生的output.config<system.serviceModel>標籤範圍內複製至新專案的web.config
-8.新專案撰寫及測試wcf
+8.新專案撰寫及測試wcf("I在IIS中建立WCF服務Client"類別來自加入CS_demo47_在IIS中建立WCF服務專案(client端)的"在IIS中建立WCF服務.cs")
 9.檢視>物件瀏覽器
